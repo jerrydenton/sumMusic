@@ -25,7 +25,7 @@ The sumMusic component has 2 options you may need to change.
 - Copyright (c) 2016 Jerry Denton
 
 ## OTHER ASSETS
-- Icons and Audio assets are from the awesome CCO asset creator Kenney - https://kenney.itch.io/
+- Icons and Audio assets are from the awesome CC0 collection by asset creator Kenney - https://kenney.itch.io/
 - License (Creative Commons Zero, CC0) - http://creativecommons.org/publicdomain/zero/1.0/
 
 ## CREATED BY
