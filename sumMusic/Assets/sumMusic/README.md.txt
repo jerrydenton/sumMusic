@@ -32,8 +32,8 @@ The sumMusic component has 2 options you may need to change.
 - Jerry Denton
 - http://www.cyberlogical.com
 
+### CHANGE NOTES
 ----------------------------------------------------------
-CHANGE NOTES
-v 1.0
+- v 1.0
 - Initial version
 ----------------------------------------------------------
