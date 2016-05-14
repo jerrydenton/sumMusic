@@ -10,7 +10,7 @@ Simple Unity3d prefabs for playing background music. Includes option to save sta
 - (Optional) Select a different AudioClip from the 'Audio' folder and attach it to the AudioSource on the prefabs
 - During play the music will now turn on and off when the button is pressed
 
-** Check 'SampleScene' for example of proper setup **
+**Check 'SampleScene' for example of proper setup**
 
 ## OPTIONS
 The sumMusic component has 2 options you may need to change.
