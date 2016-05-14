@@ -21,16 +21,16 @@ The sumMusic component has 2 options you may need to change.
 'SampleScene' contains an example with both prefabs.
 
 ## PROJECT LICENSE
-The MIT License (MIT) - https://opensource.org/licenses/MIT
-Copyright (c) 2016 Jerry Denton
+- The MIT License (MIT) - https://opensource.org/licenses/MIT
+- Copyright (c) 2016 Jerry Denton
 
 ## OTHER ASSETS
-Icons and Audio assets are from the awesome CCO asset creator Kenney - https://kenney.itch.io/
-License (Creative Commons Zero, CC0) - http://creativecommons.org/publicdomain/zero/1.0/
+- Icons and Audio assets are from the awesome CCO asset creator Kenney - https://kenney.itch.io/
+- License (Creative Commons Zero, CC0) - http://creativecommons.org/publicdomain/zero/1.0/
 
 ## CREATED BY
-Jerry Denton
-http://www.cyberlogical.com
+- Jerry Denton
+- http://www.cyberlogical.com
 
 ----------------------------------------------------------
 CHANGE NOTES
