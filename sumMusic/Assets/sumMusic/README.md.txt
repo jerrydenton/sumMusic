@@ -13,9 +13,11 @@ Simple Unity3d prefabs for playing background music. Includes option to save sta
 **Check 'SampleScene' for example of proper setup**
 
 ## OPTIONS
-The sumMusic component has 2 options you may need to change.
 - Start On : Determine default state [bool, def: true]
 - Save Settings : Save state to PlayerPrefs [bool, def: true]
+- Music On Sprite : Sprite to display when music is on (Additional sprites included in 'Icons' folder)
+- Music Off Sprite : Sprite to display when music is off (Additional sprites included in 'Icons' folder)
+- Image : Just a link. No need to change this one.
 
 ## EXAMPLE
 'SampleScene' contains an example with both prefabs.
