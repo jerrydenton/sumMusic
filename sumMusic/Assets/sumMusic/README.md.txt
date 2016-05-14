@@ -34,6 +34,8 @@ The sumMusic component has 2 options you may need to change.
 
 ### CHANGE NOTES
 ----------------------------------------------------------
+
 - v 1.0
 - Initial version
+
 ----------------------------------------------------------
