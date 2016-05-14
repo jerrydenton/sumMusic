@@ -8,6 +8,7 @@ Simple Unity3d prefabs for playing background music. Includes option to save sta
 - Copy one of the sumMusic prefabs into your Canvas.
 - (Optional) Adjust position on screen in the RectTransform component
 - (Optional) Select a different AudioClip from the 'Audio' folder and attach it to the AudioSource on the prefabs
+
 ** Check 'SampleScene' for example of proper setup **
 
 ## OPTIONS
