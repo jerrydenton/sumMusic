@@ -6,7 +6,7 @@ using UnityEngine.UI;
 /// (Requires AudioSource attached to game object)
 /// </summary>
 [RequireComponent(typeof(AudioSource))]
-public class sumMusic : MonoBehaviour {
+public class SumMusic : MonoBehaviour {
 
     // Determine default state and whether to save
     public bool startOn = true, saveSettings = true;
