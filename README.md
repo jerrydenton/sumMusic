@@ -1,7 +1,14 @@
 # sumMusic v1.0
 
 ## OVERVIEW
-Simple Unity3d prefabs for playing background music. Includes option to save status to PlayerPrefs.
+sumMusic is a super fast way to add music to your Unity3d game. Drag-and-drop prefabs into your scene and 
+instantly have background music and a button for players to toggle it on and off. Includes option to save status 
+to PlayerPrefs. Uses the native Unity UI so you can easily change the look and feel of everything right in the 
+editor. Licensed under MIT and CC0 so there are no worries on usage rights.
+
+Project Homepage: http://www.cyberlogical.com/summusic/
+Repository: https://github.com/jerrydenton/sumMusic
+
 
 ## USAGE
 - Create a Canvas if there is not one in your scene already. [Create > UI > Canvas] in Hierarchy
@@ -14,11 +21,11 @@ Simple Unity3d prefabs for playing background music. Includes option to save sta
 
 ## OPTIONS
 The following options are available on the 'sumMusic' component on each prefab
-- Start On : Determine default state [bool, def: true]
-- Save Settings : Save state to PlayerPrefs [bool, def: true]
-- Music On Sprite : Sprite to display when music is on (Additional sprites included in 'Icons' folder)
-- Music Off Sprite : Sprite to display when music is off (Additional sprites included in 'Icons' folder)
-- Image : Just a link. No need to change this one.
+- *Start On* : Determine default state [bool, def: true]
+- *Save Settings* : Save state to PlayerPrefs [bool, def: true]
+- *Music On Sprite* : Sprite to display when music is on (Additional sprites included in 'Icons' folder)
+- *Music Off Sprite* : Sprite to display when music is off (Additional sprites included in 'Icons' folder)
+- *Image* : Just a link. No need to change this one.
 
 ## EXAMPLE
 'SampleScene' contains an example with both prefabs.
