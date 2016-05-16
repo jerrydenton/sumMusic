@@ -2,12 +2,15 @@
 
 ## OVERVIEW
 sumMusic is a super fast way to add music to your Unity3d game. Drag-and-drop prefabs into your scene and 
-instantly have background music and a button for players to toggle it on and off. Includes option to save status 
-to PlayerPrefs. Uses the native Unity UI so you can easily change the look and feel of everything right in the 
-editor. Licensed under MIT and CC0 so there are no worries on usage rights.
+instantly have background music, with a button for players to toggle it on and off. Includes option to save 
+status to PlayerPrefs. Uses the native Unity UI so you can easily change the look and feel of everything right in 
+the editor. Licensed under MIT and CC0 so there are no worries on usage rights.
 
-Project Homepage: http://www.cyberlogical.com/summusic/
-Repository: https://github.com/jerrydenton/sumMusic
+For an advanced music player with tons of options you will want to look elsewhere. This is for a project that 
+just needs... some music. (ba-dum-tss)
+
+- Project Homepage: http://www.cyberlogical.com/summusic/
+- Repository: https://github.com/jerrydenton/sumMusic
 
 
 ## USAGE
