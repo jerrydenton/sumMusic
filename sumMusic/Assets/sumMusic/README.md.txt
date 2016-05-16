@@ -18,7 +18,7 @@ just needs... some music. (ba-dum-tss)
 - Copy one of the sumMusic prefabs into your Canvas.
 - (Optional) Adjust position on screen in the RectTransform component
 - (Optional) Select a different AudioClip from the 'Audio' folder and attach it to the AudioSource on the prefabs
-- During play the music will now turn on and off when the button is pressed
+- Your game now has music and a simple way to mute it!
 
 **Check 'SampleScene' for example of proper setup**
 
