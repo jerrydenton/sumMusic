@@ -27,7 +27,7 @@ public class SumMusic : MonoBehaviour {
         // Set default state based on startOn or PlayerPrefs.
         if (saveSettings) {
             if (PlayerPrefs.HasKey("sumMusicOn"))
-                musicOn = (PlayerPrefs.GetInt("sumMusicOn") > 0) ? false : true;    // Convert from int to (flipped) bool
+                musicOn = !(PlayerPrefs.GetInt("sumMusicOn") > 0);    // Convert from int to (flipped) bool
             else
                 musicOn = !startOn; // Flip default before toggle
         }
