@@ -17,30 +17,27 @@ public class SumMusic : MonoBehaviour {
     // Current music status
     bool musicOn;
 
-	void Awake () {
-        // Check that sprites are linked properly
-        if (!checkReqs())
-            Debug.LogError("Link references missing on <b>sumMusic</b> object. Please check assignments in editor.");
-	}
-
     void Start () {
         // Set default state based on startOn or PlayerPrefs.
-        if (saveSettings) {
-            if (PlayerPrefs.HasKey("sumMusicOn"))
-                musicOn = !(PlayerPrefs.GetInt("sumMusicOn") > 0);    // Convert from int to (flipped) bool
-            else
-                musicOn = !startOn; // Flip default before toggle
-        }
+        if (saveSettings && PlayerPrefs.HasKey("sumMusicOn")) 
+            musicOn = !(PlayerPrefs.GetInt("sumMusicOn") > 0);    // Convert from int to (flipped) bool
         else
             musicOn = !startOn; // Flip default before toggle
-        // Use toggle to set initial state
-        ToggleMusic(true);
+        ToggleMusic(true); // Use toggle to set initial state
     }
 
     /// <summary>
     /// Toggles music status, switches sprite, and saves if needed
     /// </summary>
-    public void ToggleMusic (bool isStart = false) {
+    /// <param name="skipSave">
+    /// Allows you to Toggle without saving regardless of saveSettings value
+    /// </param>
+    public void ToggleMusic (bool skipSave = false) {
+        // Check that sprites are linked properly
+        if (!checkReqs()) {
+            Debug.LogError("Link references missing on <b>sumMusic</b> object. Please check assignments in editor.");
+            return;
+        }
         // Flip value of musicOn
         musicOn = !musicOn;
         Debug.Log("Music status changed to " + musicOn);
@@ -53,15 +50,13 @@ public class SumMusic : MonoBehaviour {
         // Switched sprite to appropriate value
         image.sprite = musicOn ? musicOnSprite : musicOffSprite;
         // Save status to PlayerPrefs as int if needed (1=on,0=off)
-        if (saveSettings && !isStart) {
+        if (saveSettings && !skipSave) {
             Debug.Log("Saving sound settings");
             PlayerPrefs.SetInt("sumMusicOn", musicOn ? 1 : 0);
         }
     }
 	
-    /// <summary>
-    /// Checks to make sure necessary objects are assigned
-    /// </summary>
+    /// <summary>Checks to make sure necessary objects are assigned</summary>
     /// <returns>True or False</returns>
     bool checkReqs () {
         return (musicOnSprite != null && musicOffSprite != null && image != null);

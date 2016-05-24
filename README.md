@@ -1,4 +1,4 @@
-# sumMusic v1.0
+# sumMusic v1.0.1
 
 ## OVERVIEW
 sumMusic is a simple, lightweight, and open-source, Unity Asset for adding background music to your 
@@ -51,5 +51,11 @@ The following options are available on the 'sumMusic' component on each prefab
 
 - v 1.0
 - Initial version
+
+----------------------------------------------------------
+
+- v 1.0.1
+- Minor code refactoring
+- Simple prefab Button setting changed to *Navigation:None*
 
 ----------------------------------------------------------
