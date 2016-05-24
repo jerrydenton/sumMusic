@@ -53,3 +53,9 @@ The following options are available on the 'sumMusic' component on each prefab
 - Initial version
 
 ----------------------------------------------------------
+
+- v 1.0.1
+- Minor code refactoring
+- Simple prefab Button setting changed to *Navigation:None*
+
+----------------------------------------------------------
