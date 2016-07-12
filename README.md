@@ -11,6 +11,7 @@ For an advanced music player with tons of options you will want to look elsewher
 just needs... some music. (ba-dum-tss)
 
 - Project Homepage: http://www.cyberlogical.com/summusic/
+- Unity Asset Store: http://u3d.as/tJj
 - Repository: https://github.com/jerrydenton/sumMusic
 
 
@@ -61,7 +62,7 @@ The following options are available on the 'sumMusic' component on each prefab
 ----------------------------------------------------------
 
 - v 1.1
-- Added 'Keep Alive' feature to keep music active between scenes
+- Added 'Keep Alive' feature to keep object active between scenes
 - Removed 'sumMusicMenu' prefab
 - Added 'Advanced' prefab folder containing new prefabs
 - Revamped sample scene
