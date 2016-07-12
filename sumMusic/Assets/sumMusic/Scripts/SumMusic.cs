@@ -18,9 +18,9 @@ public class SumMusic : MonoBehaviour {
     bool musicOn;
 
     void Start () {
-        // Ensure object stays alive if needed
         if (keepAlive)
-            DontDestroyOnLoad(this.gameObject);
+            // Ensure object stays alive between scenes
+            DontDestroyOnLoad(gameObject);
         // Set default state based on startOn or PlayerPrefs.
         if (saveSettings && PlayerPrefs.HasKey("sumMusicOn")) 
             musicOn = !(PlayerPrefs.GetInt("sumMusicOn") > 0);    // Convert from int to (flipped) bool
