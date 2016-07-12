@@ -9,7 +9,7 @@ using UnityEngine.UI;
 public class SumMusic : MonoBehaviour {
 
     // Determine default state and whether to save
-    public bool startOn = true, saveSettings = true;
+    public bool startOn = true, saveSettings = true, keepAlive = false;
     // Links to components
     public Sprite musicOnSprite, musicOffSprite;
     public Image image;
@@ -18,12 +18,22 @@ public class SumMusic : MonoBehaviour {
     bool musicOn;
 
     void Start () {
+        // Ensure object stays alive if needed
+        if (keepAlive)
+            DontDestroyOnLoad(this.gameObject);
         // Set default state based on startOn or PlayerPrefs.
         if (saveSettings && PlayerPrefs.HasKey("sumMusicOn")) 
             musicOn = !(PlayerPrefs.GetInt("sumMusicOn") > 0);    // Convert from int to (flipped) bool
         else
             musicOn = !startOn; // Flip default before toggle
-        ToggleMusic(true); // Use toggle to set initial state
+        ToggleMusic(true); // Use toggle to set initial state (w/o save)
+    }
+
+    /// <summary>
+    /// Public accessor for toggling music from button of script
+    /// </summary>
+    public void ToggleMusic() {
+        ToggleMusic(false);
     }
 
     /// <summary>
@@ -32,7 +42,7 @@ public class SumMusic : MonoBehaviour {
     /// <param name="skipSave">
     /// Allows you to Toggle without saving regardless of saveSettings value
     /// </param>
-    public void ToggleMusic (bool skipSave = false) {
+    void ToggleMusic (bool skipSave) {
         // Check that sprites are linked properly
         if (!checkReqs()) {
             Debug.LogError("Link references missing on <b>sumMusic</b> object. Please check assignments in editor.");
