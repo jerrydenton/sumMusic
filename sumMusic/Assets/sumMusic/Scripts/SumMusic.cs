@@ -16,6 +16,10 @@ public class SumMusic : MonoBehaviour {
 
     // Current music status
     bool musicOn;
+    /// <summary>Public accessor for current music status</summary>
+    public bool MusicOn {
+        get { return musicOn; }
+    }
 
     void Start () {
         if (keepAlive)
