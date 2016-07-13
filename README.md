@@ -17,16 +17,16 @@ just needs... some music. (ba-dum-tss)
 
 ## USAGE
 - Create a Canvas if there is not one in your scene already. [Create > UI > Canvas] in Hierarchy
-- Copy the preferred sumMusic prefab(s) into your Canvas.
+- Copy the preferred sumMusic prefab(s) into your Canvas. (See notes below to select the best option)
+- Your game now has music and a simple way to mute it! Try it out.
 - (Optional) Adjust position on screen in the RectTransform component
 - (Optional) Select a different song from the 'Audio' folder and attach it to the AudioSource on the prefabs
-- Your game now has music and a simple way to mute it!
 
 ### Simple prefab notes
 This is the best choice for single scene games or simple mobile games. Just copy the 'sumMusicSimple' 
 prefab into the gameplay scene and adjust to your preferences.
 
-### Advanced prefab notes
+### Advanced prefabs notes
 This option works best if you will have multiple scenes and/or an options menu. Copy the 
 'sumMusicController' prefab into the root of your introduction scene's hierarchy. Next, copy the 
 'sumMusicMenuButton' prefab into your menu's UI element. You can reuse the button in multiple menus 
