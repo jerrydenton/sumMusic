@@ -1,14 +1,9 @@
 # sumMusic v1.1
 
 ## OVERVIEW
-sumMusic is a simple, lightweight, and open-source, Unity Asset for adding background music to your 
-game. Drag-and-drop prefabs into your scene and instantly have background music, with a button for 
-players to toggle it on and off. Includes option to save status to PlayerPrefs. Uses the native Unity UI so you 
-can easily change the look and feel of everything right in the editor. Licensed under MIT and CC0 so there 
-are no worries on usage rights.
+sumMusic is a simple, lightweight, and open-source, Unity Asset for adding background music to your game. Drag-and-drop prefabs into your scene and instantly have background music, with a button for players to toggle it on and off. Includes option to save status to PlayerPrefs. Uses the native Unity UI so you can easily change the look and feel of everything right in the editor. Licensed under MIT and CC0 so there are no worries on usage rights.
 
-For an advanced music player with tons of options you will want to look elsewhere. This is for a project that 
-just needs... some music. (ba-dum-tss)
+For an advanced music player with tons of options you will want to look elsewhere. This is for a project that just needs... some music. (ba-dum-tss)
 
 - Project Homepage: http://www.cyberlogical.com/summusic/
 - Unity Asset Store: http://u3d.as/tJj
@@ -17,20 +12,16 @@ just needs... some music. (ba-dum-tss)
 
 ## USAGE
 - Create a Canvas if there is not one in your scene already. [Create > UI > Canvas] in Hierarchy
-- Copy the preferred sumMusic prefab(s) into your Canvas. (See notes below to select the best option)
+- Copy the preferred sumMusic prefab(s) into your scene. (See notes below to select the best option)
 - Your game now has music and a simple way to mute it! Try it out.
 - (Optional) Adjust position on screen in the RectTransform component
 - (Optional) Select a different song from the 'Audio' folder and attach it to the AudioSource on the prefabs
 
 ### Simple prefab notes
-This is the best choice for single scene games or simple mobile games. Just copy the 'sumMusicSimple' 
-prefab into the gameplay scene and adjust to your preferences.
+This is the best choice for single scene games or simple mobile games. Just copy the 'sumMusicSimple' prefab into your **Canvas** and adjust to your preferences. That's it.
 
 ### Advanced prefabs notes
-This option works best if you will have multiple scenes and/or an options menu. Copy the 
-'sumMusicController' prefab into the root of your introduction scene's hierarchy. Next, copy the 
-'sumMusicMenuButton' prefab into your menu's UI element. You can reuse the button in multiple menus 
-if needed.
+This option works best if you will have multiple scenes and/or an options menu. Copy the 'sumMusicController' prefab into the **root** of your introduction scene's hierarchy. Next, copy the 'sumMusicMenuButton' prefab into the **Canvas** containing your menu's UI. You can reuse the button in multiple scenes if needed. Note that choosing to use more than one SumMusic button per scene will require customization on your part.
 
 **Check 'SampleScene' for usage examples**
 
@@ -45,6 +36,8 @@ The following options are available on the 'sumMusic' component on each prefab
 
 ## EXAMPLE
 'SampleScene' contains an example of the prefabs in action.
+
+To see the *Keep Alive* feature in action along with the Menu Button prefab enable the 'SumMusicMultiSceneTest' component on the Main Camera of SampleScene. This will load the 'ss2' scene 3 seconds after loading. (Note: You will need to have the 'ss2' scene loaded in your project's Build Settings)
 
 ## PROJECT LICENSE
 - The MIT License (MIT) - https://opensource.org/licenses/MIT

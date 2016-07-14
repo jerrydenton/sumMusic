@@ -10,23 +10,23 @@ using UnityEngine.UI;
 [RequireComponent(typeof(Image))]
 public class SumMusicButtonImage : MonoBehaviour {
 
-    SumMusic obj;
-    Image img;
+    SumMusic controller;
 
     public void OnEnable() {
         // Link controller if we don't have it already
-        if (obj == null) {
-            obj = GameObject.Find("sumMusicController").GetComponent<SumMusic>();
-            // Log error and exit if the controller is still missing
-            if (obj == null) {
+        if (controller == null) {
+            GameObject go = GameObject.Find("sumMusicController");
+            // Log error and exit if the controller is missing
+            if (go == null) {
                 Debug.LogError("Required game object 'sumMusicController' is missing");
                 return;
             }
+            // Link controller
+            controller = go.GetComponent<SumMusic>();
         }
-        img = GetComponent<Image>(); // Link this game object's image to the controller
-        obj.image = img;
+        controller.image = GetComponent<Image>(); // Link this game object's image to the controller
         // Set appropriate sprite
-        img.sprite = obj.MusicOn ? obj.musicOnSprite : obj.musicOffSprite;
+        controller.image.sprite = controller.MusicOn ? controller.musicOnSprite : controller.musicOffSprite;
     }
 
 }
