@@ -1,13 +1,13 @@
 # sumMusic v1.1
 
+- Unity Asset Store: http://u3d.as/tJj
+- Project Homepage: http://jerrydenton.github.io/sumMusic/
+- Developer Contact: http://www.cyberlogical.com/summusic/
+
 ## OVERVIEW
 sumMusic is a simple, lightweight, and open-source, Unity Asset for adding background music to your game. Drag-and-drop prefabs into your scene and instantly have background music, with a button for players to toggle it on and off. Includes option to save status to PlayerPrefs. Uses the native Unity UI so you can easily change the look and feel of everything right in the editor. Licensed under MIT and CC0 so there are no worries on usage rights.
 
 For an advanced music player with tons of options you will want to look elsewhere. This is for a project that just needs... some music. (ba-dum-tss)
-
-- Project Homepage: http://www.cyberlogical.com/summusic/
-- Unity Asset Store: http://u3d.as/tJj
-- Repository: https://github.com/jerrydenton/sumMusic
 
 
 ## USAGE
