@@ -29,8 +29,9 @@ prefab into the gameplay scene and adjust to your preferences.
 ### Advanced prefabs notes
 This option works best if you will have multiple scenes and/or an options menu. Copy the 
 'sumMusicController' prefab into the root of your introduction scene's hierarchy. Next, copy the 
-'sumMusicMenuButton' prefab into your menu's UI element. You can reuse the button in multiple menus 
-if needed.
+'sumMusicMenuButton' prefab into your menu's UI element. You can reuse the button in multiple scenes 
+if needed. Note that choosing to use more than one of these buttons per scene will require customization 
+on your part.
 
 **Check 'SampleScene' for usage examples**
 
