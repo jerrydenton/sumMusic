@@ -1,6 +1,6 @@
 # sumMusic v1.1
 
-- Unity Asset Store: http://u3d.as/tJj <<< **_Current stable release_**
+- Unity Asset Store: http://u3d.as/tJj <<< **_Current official release_**
 - Project Homepage: http://jerrydenton.github.io/sumMusic/
 - Developer Contact: http://www.cyberlogical.com/summusic/
 
