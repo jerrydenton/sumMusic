@@ -5,6 +5,7 @@ using UnityEngine.UI;
 /// Controls UI Button and Audio Source for music player
 /// (Requires AudioSource attached to game object)
 /// </summary>
+[HelpURL("https://jerrydenton.github.io/sumMusic/")]
 [RequireComponent(typeof(AudioSource))]
 public class SumMusic : MonoBehaviour {
 
