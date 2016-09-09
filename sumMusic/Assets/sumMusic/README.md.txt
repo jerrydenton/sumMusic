@@ -56,6 +56,14 @@ To see the *Keep Alive* feature in action along with the Menu Button prefab enab
 - http://www.cyberlogical.com
 
 ### CHANGE NOTES
+
+----------------------------------------------------------
+
+- v 1.1.1
+- Added link to documentation for in-editor help button 
+- Added demo and instructional video to documentation 
+- Editor version updated to 5.3.5
+
 ----------------------------------------------------------
 
 - v 1.1
