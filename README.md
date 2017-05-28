@@ -50,12 +50,19 @@ To see the *Keep Alive* feature in action along with the Menu Button prefab enab
 ## OTHER ASSETS
 - Icons and Audio assets are from the awesome CC0 collection by asset creator Kenney - https://kenney.itch.io/
 - License (Creative Commons Zero, CC0) - http://creativecommons.org/publicdomain/zero/1.0/
+- Some sounds modified slightly by Jerry Denton for better looping
 
 ## CREATED BY
 - Jerry Denton
 - http://www.cyberlogical.com
 
 ### CHANGE NOTES
+
+----------------------------------------------------------
+
+- v 1.2
+- Modified many sounds for better looping
+- Editor version updated to 5.6.1
 
 ----------------------------------------------------------
 
