@@ -7,4 +7,3 @@ Find more information:
 - Developer Contact: http://www.cyberlogical.com/summusic/
 
 Copyright (c) 2016 Jerry Denton
-www.cyberlogical.com
