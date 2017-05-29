@@ -9,7 +9,7 @@ sumMusic is a simple, lightweight, and open-source, Unity Asset for adding backg
 
 For an advanced music player with tons of options you will want to look elsewhere. This is for a project that just needs... some music. (ba-dum-tss)
 
-###Demo and Instructional Video
+### Demo and Instructional Video
 
 [![View demo on YouTube](https://img.youtube.com/vi/deIFiuCq1b8/0.jpg)](https://www.youtube.com/watch?v=deIFiuCq1b8)
 
